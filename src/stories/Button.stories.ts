@@ -58,3 +58,10 @@ export const MyFirstStory: Story = {
     label: "Button"
   }
 };
+
+export const NewFirstStory: Story = {
+  args: {
+    primary: false,
+    label: "Test Button"
+  }
+};
