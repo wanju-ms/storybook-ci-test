@@ -5,8 +5,7 @@ name: Build and Publish Storybook to GitHub Pages
 on:
   push:
     # Runs on pushes targeting the default branch
-    # branches: [ "main" ]
-    branches: [ "gh-pages" ]
+    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
