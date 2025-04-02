@@ -65,3 +65,10 @@ export const NewFirstStory: Story = {
     label: "Test Button"
   }
 };
+
+export const AnotherFirstStory: Story = {
+  args: {
+    primary: false,
+    label: "Another Test Button"
+  }
+};
